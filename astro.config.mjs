@@ -5,7 +5,7 @@ import tailwind from '@astrojs/tailwind';
 
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://clintc1.github.io',
+    site: 'https://clintc1.github.io/ccweb',
     integrations: [
         mdx(),
         sitemap(),
