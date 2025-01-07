@@ -6,7 +6,6 @@
         "dev": "astro dev",
         "start": "astro dev",
         "build": "astro build",
-        "build:gh-page": "astro check && astro build --base=/ccweb/", 
         "preview": "astro preview",
         "astro": "astro"
     },
