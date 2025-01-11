@@ -38,9 +38,11 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    title: 'Dante',
-    subtitle: 'Minimal Astro.js theme',
-    description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
+    //title: 'Clinton Cawood',
+    title: 'Site in progress',
+    //subtitle: 'Drinks Journalist',
+    subtitle: 'Stay tuned',
+    description: 'Portfolio site',
     image: {
         src: '/dante-preview.jpg',
         alt: 'Dante - Astro.js and Tailwind CSS theme'
@@ -97,14 +99,14 @@ const siteConfig: SiteConfig = {
     ],
     hero: {
         title: 'TBC',
-        text: "Work in progress...",
+        text: "Site in progress...",
         image: {
-            src: '/hero.jpeg',
-            alt: 'A cocktail'
+            src: '/hero.png',
+            alt: 'Drinks'
         },
         actions: [
             {
-                text: 'Get in Touch',
+                text: 'Get in touch',
                 href: '/contact'
             }
         ]
