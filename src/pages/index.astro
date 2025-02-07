@@ -8,7 +8,7 @@ import ProjectPreview from '../components/ProjectPreview.astro';
 import siteConfig from '../data/site-config';
 import { sortItemsByDateDesc } from '../utils/data-utils';
 
-const posts = (await getCollection('blog')).sort(sortItemsByDateDesc);
+const posts = (await getCollection('portfolio')).sort(sortItemsByDateDesc);
 const featuredPosts = posts.filter(({ data }) => data.isFeatured);
 
 // const projects = (await getCollection('projects')).sort(sortItemsByDateDesc);
@@ -26,7 +26,7 @@ const featuredPosts = posts.filter(({ data }) => data.isFeatured);
                     <PostPreview post={post} class="mb-10 sm:mb-12" headingLevel="h3" />
                 ))}
                 <div class="mt-12 sm:mt-16">
-                    <Button href="/blog">View All Posts</Button>
+                    <Button href="/portfolio">View All Posts</Button>
                 </div>
             </div>
         )
