@@ -50,9 +50,6 @@ const { Content } = await render(post);
         <div class="max-w-none prose prose-dante sm:prose-lg">
             {excerpt}
         </div>
-        <div class="max-w-none prose prose-dante sm:prose-lg">
-            <img class="w-5/8" src={`/src/content/portfolio/${seo.image.src}`} loading="lazy" decoding="async" alt={seo.image.alt || ''} />
-        </div>
         </div>
         <div class="max-w-none prose prose-dante sm:prose-lg">
             <Content />
