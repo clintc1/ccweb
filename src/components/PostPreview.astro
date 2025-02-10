@@ -6,10 +6,23 @@ import FormattedDate from './FormattedDate.astro';
 type Props = { post: CollectionEntry<'portfolio'>; class?: string; headingLevel?: 'h2' | 'h3' };
 
 const { post, class: className, headingLevel = 'h2' } = Astro.props;
-const { title, publishDate, updatedDate, excerpt, publication, tags } = post.data;
+const { title, seo, publishDate, updatedDate, excerpt, publication, tags } = post.data;
 const TitleTag = headingLevel;
+const imageUrl = `/thumbnails/${seo.image.src}`
 ---
-
+<div class="flex flex-row mb-4">
+    <div class="w-1/4 mr-4">
+      {seo.image && (
+        <img
+          class="rounded-md shadow-md"
+          sizes="(max-width: 640px) 100vw, 33vw"
+          src={imageUrl}
+          alt={seo?.image.alt}
+          loading="lazy"
+        />
+      )}
+    </div>
+    <div class="w-3/4">
 <a class:list={['flex justify-between items-start gap-8 group', className]} href={`/portfolio/${post.id}/`}>
     <div class="grow">
         <TitleTag
@@ -46,3 +59,5 @@ const TitleTag = headingLevel;
         Read article <ArrowRight class="fill-current w-4 h-4" />
     </div>
 </a>
+</div>
+</div>
