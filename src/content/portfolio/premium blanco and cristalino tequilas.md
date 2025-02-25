@@ -7,11 +7,10 @@ publishDate: Sept 12 2024
 isFeatured: true
 seo:
   image:
-    src: 'images/clearcontenders.jpg'
+    src: 'clearcontenders.jpg'
     alt: Alt text
 
 
 ---
-![ALT TEXT](images/clearcontenders.jpg)
 
 You might, in seeking out a special bottle of tequila, gravitate towards those amber-coloured, long-aged luxury expressions – añejos and extra añejos – in their fancy packaging. But a growing number of noteworthy blanco tequilas are doing things differently, without an oak cask in sight. Meanwhile, cristalinos – aged expressions that are filtered to remove their colour – are also on the rise. Together, they’re changing the face of premium crystal-clear tequila.

@@ -27,6 +27,7 @@ const { href } = Astro.url;
 const { post, prevPost, nextPost } = Astro.props;
 const { title, publishDate, updatedDate, publication, URL, excerpt, tags = [], seo } = post.data;
 const { Content } = await render(post);
+const imageUrl = `/postimages/${seo.image.src}`
 ---
 
 <BaseLayout title={seo?.title ?? title} description={seo?.description ?? excerpt} image={seo?.image} pageType="article" showHeader={false}>
@@ -39,6 +40,15 @@ const { Content } = await render(post);
         </header>
         <div class="max-w-none prose prose-dante font-style: italic sm:prose-lg">
             {excerpt}
+        </div>
+        <div class="mb-4 mt-4 sm:mb-8 sm:mt-8">
+            <img
+            class="rounded-md shadow-md grayscale-[0.5]"
+            sizes="(max-width: 640px) 800vw, 33vw"
+            src={imageUrl}
+            alt={seo?.image.alt}
+            loading="lazy"
+            />
         </div>
         </div>
         <div class="max-w-none prose prose-dante sm:prose-lg">

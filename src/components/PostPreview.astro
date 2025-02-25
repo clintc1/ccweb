@@ -8,7 +8,7 @@ type Props = { post: CollectionEntry<'portfolio'>; class?: string; headingLevel?
 const { post, class: className, headingLevel = 'h2' } = Astro.props;
 const { title, seo, publishDate, updatedDate, excerpt, publication, tags } = post.data;
 const TitleTag = headingLevel;
-const imageUrl = `/thumbnails/${seo.image.src}`
+const imageUrl = `/postimages/thumbnails/${seo.image.src}`
 ---
 <div class="flex flex-row mb-4">
     <div class="w-1/4 mr-4">
