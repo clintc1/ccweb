@@ -38,11 +38,9 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    //title: 'Clinton Cawood',
-    title: 'Site in progress',
-    //subtitle: 'Drinks Journalist',
-    subtitle: 'Stay tuned',
-    description: 'Portfolio site',
+    title: 'Clinton Cawood',
+    subtitle: 'Drinks Journalist',
+    description: 'Portfolio site of Clinton Cawood',
     image: {
         src: '/dante-preview.jpg',
         alt: 'Dante - Astro.js and Tailwind CSS theme'
@@ -74,32 +72,32 @@ const siteConfig: SiteConfig = {
             text: 'Contact',
             href: '/contact'
         },
-        {
-            text: 'Terms',
-            href: '/terms'
-        },
-        {
-            text: 'Download theme',
-            href: 'https://github.com/JustGoodUI/dante-astro-theme'
-        }
+     //   {
+     //       text: 'Terms',
+     //       href: '/terms'
+     //   },
+     //   {
+     //       text: 'Download theme',
+     //       href: 'https://github.com/JustGoodUI/dante-astro-theme'
+     //   }
     ],
     socialLinks: [
         {
-            text: 'Dribbble',
-            href: 'https://dribbble.com/'
-        },
-        {
             text: 'Instagram',
-            href: 'https://instagram.com/'
+            href: 'https://instagram.com/clintc1'
         },
         {
-            text: 'X/Twitter',
-            href: 'https://twitter.com/'
-        }
+            text: 'LinkedIn',
+            href: 'https://www.linkedin.com/in/clinton-cawood/'
+        },
+    //    {
+    //        text: 'X/Twitter',
+    //        href: 'https://twitter.com/'
+    //    }
     ],
     hero: {
-        title: 'TBC',
-        text: "Site in progress...",
+        title: 'Clinton Cawood',
+        text: "Portfolio site",
         image: {
             src: '/hero.png',
             alt: 'Drinks'
