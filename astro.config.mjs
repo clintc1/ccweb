@@ -1,12 +1,12 @@
 import { defineConfig } from 'astro/config';
+import tsconfigPaths from 'vite-tsconfig-paths';
 import tailwindcss from '@tailwindcss/vite';
 import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
 
-// https://astro.build/config
 export default defineConfig({
   vite: {
-    plugins: [tailwindcss()],
+    plugins: [tsconfigPaths(), tailwindcss()],
   },
   site: 'https://clintoncawood.com',
   integrations: [
