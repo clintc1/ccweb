@@ -5,9 +5,13 @@ import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
-    vite: {
-      resolve: { tsconfigPaths: {} },
-      plugins: [tsconfigPaths(), tailwindcss()],
-    },
-    ...
-  });
+  vite: {
+    resolve: { tsconfigPaths: {} },
+    plugins: [tsconfigPaths(), tailwindcss()],
+  },
+  site: 'https://clintoncawood.com',
+  integrations: [
+    mdx(),
+    sitemap(),
+  ],
+});
