@@ -9,8 +9,5 @@ export default defineConfig({
     plugins: [tsconfigPaths(), tailwindcss()],
   },
   site: 'https://clintoncawood.com',
-  integrations: [
-    mdx(),
-    sitemap(),
-  ],
+  integrations: [mdx(), sitemap()],
 });
