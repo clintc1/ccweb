@@ -23,46 +23,46 @@
 
 /* Moved from Nav.astro <style is:global> */
 @media (max-width: 767px) {
-    :root .menu {
-        @apply flex-col gap-1 absolute -top-2.5 -left-2.5 max-w-64 px-3 pt-16 pb-10 z-20 bg-main border border-dashed border-main invisible opacity-0;
-        width: calc(100% + 1.25rem);
-    }
-    :root .menu.is-visible {
-        @apply visible opacity-100;
-        transition: opacity 0.25s cubic-bezier(0.4, 0, 0.2, 1) 0.2s;
-    }
-    :root .menu-toggle-icon {
-        transition: width 0.1s cubic-bezier(0.4, 0, 0.2, 1) 0.3s;
-    }
-    :root .menu-toggle.is-active .menu-toggle-icon {
-        @apply w-0;
-        transition: width 0.1s cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    :root .menu-toggle-icon:before,
-    :root .menu-toggle-icon:after {
-        @apply w-6 h-px absolute left-1/2 top-0 origin-center -translate-x-1/2 bg-current;
-        content: '';
-        transition:
-            transform 0.2s cubic-bezier(0.4, 0, 0.2, 1),
-            margin 0.2s cubic-bezier(0.4, 0, 0.2, 1) 0.2s;
-    }
-    :root .menu-toggle-icon:before {
-        @apply -mt-1.5;
-    }
-    :root .menu-toggle-icon:after {
-        @apply mt-1.5;
-    }
-    :root .menu-toggle.is-active .menu-toggle-icon:before,
-    :root .menu-toggle.is-active .menu-toggle-icon:after {
-        @apply mt-0;
-        transition:
-            margin 0.2s cubic-bezier(0.4, 0, 0.2, 1) 0.1s,
-            transform 0.2s cubic-bezier(0.4, 0, 0.2, 1) 0.3s;
-    }
-    :root .menu-toggle.is-active .menu-toggle-icon:before {
-        @apply rotate-45;
-    }
-    :root .menu-toggle.is-active .menu-toggle-icon:after {
-        @apply -rotate-45;
-    }
+  :global(.menu) {
+    @apply flex-col absolute -top-2.5 -left-2.5 max-w-64 px-3 pt-16 pb-10 z-20 bg-main border border-dashed invisible opacity-0;
+    width: calc(100% + 1.25rem);
+  }
+  :global(.menu.is-visible) {
+    @apply visible opacity-100;
+    transition: opacity 0.25s cubic-bezier(0.4, 0, 0.2, 1) 0.2s;
+  }
+  :global(.menu-toggle-icon) {
+    transition: width 0.1s cubic-bezier(0.4, 0, 0.2, 1) 0.3s;
+  }
+  :global(.menu-toggle.is-active .menu-toggle-icon) {
+    @apply w-0;
+    transition: width 0.1s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  :global(.menu-toggle-icon:before),
+  :global(.menu-toggle-icon:after) {
+    @apply w-6 h-px absolute left-1/2 top-0 origin-center -translate-x-1/2 bg-current;
+    content: '';
+    transition:
+      transform 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+      margin 0.2s cubic-bezier(0.4, 0, 0.2, 1) 0.2s;
+  }
+  :global(.menu-toggle-icon:before) {
+    @apply -mt-1.5;
+  }
+  :global(.menu-toggle-icon:after) {
+    @apply mt-1.5;
+  }
+  :global(.menu-toggle.is-active .menu-toggle-icon:before),
+  :global(.menu-toggle.is-active .menu-toggle-icon:after) {
+    @apply mt-0;
+    transition:
+      margin 0.2s cubic-bezier(0.4, 0, 0.2, 1) 0.1s,
+      transform 0.2s cubic-bezier(0.4, 0, 0.2, 1) 0.3s;
+  }
+  :global(.menu-toggle.is-active .menu-toggle-icon:before) {
+    @apply rotate-45;
+  }
+  :global(.menu-toggle.is-active .menu-toggle-icon:after) {
+    @apply -rotate-45;
+  }
 }
