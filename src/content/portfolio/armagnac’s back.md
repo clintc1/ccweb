@@ -4,7 +4,7 @@ excerpt: While older vintages of Armagnac are still popular, newer expressions a
 URL: https://www.thespiritsbusiness.com/2025/01/armagnac-back-how-younger-styles-are-shaping-a-new-era/
 publication: 'The Spirits Business'
 publishDate: Jan 21 2025
-isFeatured: true
+isFeatured: false
 tags: 
   - The Spirits Business
 seo:

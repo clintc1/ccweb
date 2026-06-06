@@ -4,7 +4,7 @@ excerpt: Top-end tequilas tend to be aged añejo styles, but a new breed of prem
 URL: https://www.decanter.com/spirits/colourless-tequilas-clear-contenders-537436
 publication: 'Decanter'
 publishDate: Sept 12 2024
-isFeatured: true
+isFeatured: false
 seo:
   image:
     src: 'clearcontenders.jpg'
