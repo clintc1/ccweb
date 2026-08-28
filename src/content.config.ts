@@ -25,7 +25,7 @@ const portfolio = defineCollection({
         isFeatured: z.boolean().default(false),
         tags: z.array(z.string()).default([]),
         seo: seoSchema.optional(),
-        signup: z.string()
+        signup: z.string().optional()
     })
 });
 
