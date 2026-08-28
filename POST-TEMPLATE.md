@@ -9,6 +9,7 @@ seo:
   image:
     src: 'xxxxxxIMAGE.JPGxxxxxxx'
     alt: 'xxxxxIMAGE-ALT-TEXTxxxxxxx'
+signup: '(subscription required)'
 
 
 ---

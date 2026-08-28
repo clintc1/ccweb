@@ -6,7 +6,7 @@ import FormattedDate from './FormattedDate.astro';
 type Props = { post: CollectionEntry<'portfolio'>; class?: string; headingLevel?: 'h2' | 'h3' };
 
 const { post, class: className, headingLevel = 'h2' } = Astro.props;
-const { title, seo, publishDate, updatedDate, excerpt, publication, tags } = post.data;
+const { title, seo, publishDate, updatedDate, excerpt, publication, tags, signup } = post.data;
 const TitleTag = headingLevel;
 const imageUrl = `/postimages/thumbnails/${seo.image.src}`
 ---
