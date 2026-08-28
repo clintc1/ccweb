@@ -25,7 +25,7 @@ const portfolio = defineCollection({
         isFeatured: z.boolean().default(false),
         tags: z.array(z.string()).default([]),
         seo: seoSchema.optional(),
-        signup: z.string()
+        signup?: z.string()
     })
 });
 
@@ -45,7 +45,7 @@ const projects = defineCollection({
         publishDate: z.coerce.date(),
         isFeatured: z.boolean().default(false),
         seo: seoSchema.optional(),
-        signup: z.string()
+        signup?: z.string()
     })
 });
 
