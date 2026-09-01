@@ -9,7 +9,7 @@ seo:
   image:
     src: 'globalbrandy.jpg'
     alt: 'A vineyard'
-signup: ''
+signup: ' '
 
 
 ---

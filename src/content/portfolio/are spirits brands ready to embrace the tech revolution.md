@@ -9,7 +9,7 @@ seo:
   image:
     src: 'spiritstechrevolution.jpg'
     alt: 'Futuristic image'
-signup: ''
+signup: ' '
 
 
 ---

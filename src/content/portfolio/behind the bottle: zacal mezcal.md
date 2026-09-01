@@ -9,7 +9,7 @@ seo:
   image:
     src: 'zacalmezcal.jpg'
     alt: 'A bottle of Zacal Mezcal with harvested agave plants in the background'
-signup: ''
+signup: ' '
 
 
 ---
