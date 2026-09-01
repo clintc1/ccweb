@@ -9,7 +9,7 @@ seo:
   image:
     src: 'summercocktails.jpg'
     alt: 'Two seasonal summer cocktails'
-signup: 
+signup: ''
 
 
 ---
