@@ -10,7 +10,7 @@ seo:
 
 ![Clinton Cawood](/clintoncawood.png)
 
-I've been writing about drinks for nearly two decades, since landing in the UK in 2006 from South Africa, where I'd already put in more than a few hours on both sides of the bar while studying journalism. 
+I've been writing about drinks for more than two decades, since landing in the UK in 2006 from South Africa, where I'd already put in more than a few hours on both sides of the bar while studying journalism. 
 
 After working in-house at *The Drinks Business* and *Imbibe*, I went freelance in 2017, covering all aspects of the drinks and hospitality industries, with a particular interest in spirits, cocktails and bars. I regularly contribute to titles such as *Class*, *Decanter*, *Foodism*, *The Spirits Business*, *Club Oenologique*, *Drinks International*, and many more. 
 
