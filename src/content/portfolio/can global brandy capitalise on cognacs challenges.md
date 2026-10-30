@@ -14,6 +14,6 @@ signup: ' '
 
 ---
 
-xxxxxxxxxx xxxxxxxxxxxxxx xxxxxxxxxxxxxxxxx xxxxxxxx xxxxxxxxxx xxxxxxxxxxxxxx xxxxxxxxxxxxxxxxx xxxxxxxx xxxxxxxxxx xxxxxxxxxxxxxx xxxxxxxxxxxxxxxxx xxxxxxxx xxxxxxxxxx xxxxxxxxxxxxxx xxxxxxxxxxxxxxxxx xxxxxxxx xxxxxxxxxx xxxxxxxxxxxxxx xxxxxxxxxxxxxxxxx xxxxxxxx 
+The conversation about brandy, at least at the premium end of the market, tends to be dominated by Cognac, despite the fact that grape-based spirits are found pretty much anywhere grapes are grown. That’s potentially changing though, with Cognac, and to a certain extent its French cousin Armagnac, facing a variety of challenges, opening up opportunities for brandies produced elsewhere.
 
-xxxxxxxxxx xxxxxxxxxxxxxx xxxxxxxxxxxxxxxxx xxxxxxxx xxxxxxxxxx xxxxxxxxxxxxxx xxxxxxxxxxxxxxxxx xxxxxxxx xxxxxxxxxx xxxxxxxxxxxxxx xxxxxxxxxxxxxxxxx xxxxxxxx xxxxxxxxxx xxxxxxxxxxxxxx xxxxxxxxxxxxxxxxx xxxxxxxx xxxxxxxxxx xxxxxxxxxxxxxx xxxxxxxxxxxxxxxxx xxxxxxxx xxxxxxxxxx xxxxxxxxxxxxxx xxxxxxxxxxxxxxxxx xxxxxxxx xxxxxxxxxx xxxxxxxxxxxxxx xxxxxxxxxxxxxxxxx xxxxxxxx 
+“The classics moved their focus massively away from the UK, one of their most stable markets, and focused on the short wins, which has now come back to bite them,” says Dawn Davies, commercial buying director for The Whisky Exchange and The Whisky Exchange Trade. 
