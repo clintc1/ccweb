@@ -3,7 +3,7 @@ title: 'Global Bar Report 2026: Europe'
 excerpt: Europe’s bar scene is more diverse than ever, with guests looking to explore the hospitality identity of each bar and city. 
 URL: https://www.thespiritsbusiness.com/2026/11/global-bar-report-2026-europe/
 publication: 'The Spirits Business'
-publishDate: Oct 21 2026
+publishDate: Nov 6 2026
 isFeatured: true
 seo:
   image:
