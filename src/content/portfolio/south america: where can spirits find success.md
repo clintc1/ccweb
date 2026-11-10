@@ -4,7 +4,7 @@ excerpt: During what is undoubtedly a tough time for spirits around the world, p
 URL: https://www.thespiritsbusiness.com/2025/12/south-america-where-can-spirits-find-success/
 publication: 'The Spirits Business'
 publishDate: Dec 12 2025
-isFeatured: true
+isFeatured: false
 seo:
   image:
     src: 'southamericaspirits.jpg'
